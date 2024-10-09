@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+main {
+    height: 100vh;
+    background-color: #e5e5e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ------------------- card ------------------- */
+
+.card {
+    background-color: #fff;
+    width: 655px;
+    height: 347px;
+    display: flex;
+    align-items: center;
+    border-radius: 21px;
+    box-shadow: 0px 20px 20px -10px #00000040;
+}
+
+.card .imagem img {
+    width: 278px;
+    height: 293px;
+    margin-left: -90px;
+}
+
+/* ------------------- faq ------------------- */
+
+.card .faq {
+    margin-left: 40px;
+}
+
+.card .faq h1 {
+    font-size: 25px;
+}
+
+.card .faq .lista-faq {
+    width: 390px;
+}
+
+/* ------------------- item faq ------------------- */
+
+.card .faq .lista-faq .item-faq {
+    padding: 15px 0;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.card .faq .lista-faq .item-faq:last-child {
+    border-bottom: none;
+}
+
+/* ------------------- pergunta ------------------- */
+
+.card .faq .lista-faq .item-faq .pergunta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .faq .lista-faq .item-faq .pergunta h4 {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.card .faq .lista-faq .item-faq .pergunta button {
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+.card .faq .lista-faq .item-faq .pergunta i {
+    color: #a6a6a6;
+    font-size: 25px;
+}
+
+.card .faq .lista-faq .item-faq .pergunta .selecionado {
+    color: #f14624;
+}
+
+/* ------------------- resposta ------------------- */
+
+.card .faq .lista-faq .item-faq .resposta {
+    font-size: 15px;
+    width: 347px;
+}

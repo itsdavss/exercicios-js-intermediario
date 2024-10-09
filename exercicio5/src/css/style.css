@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.principal {
+    background-color: #080606;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.principal .card {
+    background-color: #fff;
+    width: 400px;
+    height: 500px;
+    padding: 40px;
+    margin-left: -400px;
+    border-radius: 10px;
+}
+
+.principal .card h1 {
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.principal .card p {
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.principal .card a {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.principal .seta-esquerda {
+    margin-left: 20px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.principal .seta-direita {
+    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.principal .seta-esquerda img,
+.principal .seta-direita img {
+    width: 50px;
+}
+
+/* ----------------------------- BACKGROUNDS ----------------------------- */
+
+.fundo-imagem1{
+    background-image: url(../img/imagem1.jpg);
+}
+
+.fundo-imagem2{
+    background-image: url(../img/imagem2.jpg);
+}
+
+.fundo-imagem3{
+    background-image: url(../img/imagem3.jpg);
+}
+
+.fundo-imagem4{
+    background-image: url(../img/imagem4.jpg);
+}
+
+/* ----------------------------- LINKS ----------------------------- */
+
+.link-imagem1{
+    color: #C50000;
+}
+
+.link-imagem2{
+    color: #D9DD10;
+}
+
+.link-imagem3{
+    color: #A63A17;
+}
+
+.link-imagem4{
+    color: #10ACDD;
+}
+
+/* ----------------------------- SETAS ----------------------------- */
+
+.opacidade{
+    opacity: 50%;
+}

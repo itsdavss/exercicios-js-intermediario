@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <script src="https://kit.fontawesome.com/4a332b994c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <main>
+        <div class="card">
+            <div class="imagem">
+                <img src="src/images/imagem.png" alt="imagem do site">
+            </div>
+            <div class="faq">
+                <h1>FAQ</h1>
+                <ul class="lista-faq">
+                    <li class="item-faq">
+                        <div class="pergunta">
+                            <h4>Lorem ipsum dolor sit amet, consectetur ?</h4>
+                            <button onclick="abrirResposta(0)" class="botao">
+                                <i class="fa-solid fa-caret-down icone"></i>
+                            </button>
+                        </div>
+                        <p class="resposta" hidden> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                            quis egestas ex, a
+                            elementum est. Mauris auctor nunc quis erat.
+                        </p>
+                    </li>
+                    <li class="item-faq">
+                        <div class="pergunta">
+                            <h4>Lorem ipsum dolor sit amet ? </h4>
+                            <button onclick="abrirResposta(1)" class="botao">
+                                <i class="fa-solid fa-caret-down icone"></i>
+                            </button>
+                        </div>
+                        <p class="resposta" hidden> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                            quis egestas ex, a
+                            elementum est. Mauris auctor nunc quis erat.
+                        </p>
+                    </li>
+                    <li class="item-faq">
+                        <div class="pergunta">
+                            <h4>Lorem ipsum dolor sit ? </h4>
+                            <button onclick="abrirResposta(2)" class="botao">
+                                <i class="fa-solid fa-caret-down icone"></i>
+                            </button>
+                        </div>
+                        <p class="resposta" hidden> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                            quis egestas ex, a
+                            elementum est. Mauris auctor nunc quis erat.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
